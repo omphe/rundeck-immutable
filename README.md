@@ -19,4 +19,7 @@ bundle exec librarian-puppet install
 - Create a bootstrap script for installing puppet in the Vagrant box
 - Switch over to Puppet 4
 - Create a Travis CI file and get a test in place (inspec?)
+- nginx proxy in front
+- Check the gpg signature on the Rundeck repository
+
 

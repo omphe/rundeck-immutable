@@ -68,9 +68,12 @@ Vagrant.configure("2") do |config|
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
-	
+
+  config.vm.host_name = "rundeck-immutable"
+
 	config.vm.provision "puppet" do |puppet|
 		puppet.manifests_path = "puppet/manifests"
-		puppet.manifest_file = "site.pp"
+		puppet.manifest_file  = "site.pp"
+    puppet.module_path    = "puppet/modules" 
   end
 end

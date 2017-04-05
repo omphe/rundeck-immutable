@@ -14,9 +14,13 @@ FORGE
     puppetlabs-apt (2.3.0)
       puppetlabs-stdlib (< 5.0.0, >= 4.5.0)
     puppetlabs-inifile (1.6.0)
+    puppetlabs-java (1.6.0)
+      puppetlabs-stdlib (< 5.0.0, >= 2.4.0)
     puppetlabs-java_ks (1.5.0)
     puppetlabs-stdlib (4.16.0)
 
 DEPENDENCIES
   puppet-rundeck (= 3.3.0)
+  puppetlabs-apt (= 2.3.0)
+  puppetlabs-java (= 1.6.0)
 
