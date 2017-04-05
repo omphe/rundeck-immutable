@@ -1,0 +1,14 @@
+# OS Files
+.DS_Store
+
+# Editor files
+*.sw?
+*~
+
+# Puppet
+puppet/modules
+.tmp/
+.librarian/
+
+# Vagrant
+.vagrant
